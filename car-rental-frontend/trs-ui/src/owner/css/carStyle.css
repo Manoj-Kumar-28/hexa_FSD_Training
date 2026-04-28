@@ -1,0 +1,52 @@
+
+    body {
+        background-color: #f5f7fa;
+    }
+
+    /* Sidebar */
+    .sidebar {
+        height: 150vh;
+        background-color: #0d6efd;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .sidebar h4 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .sidebar a {
+        display: block;
+        padding: 12px 20px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .sidebar a:hover {
+        background-color: #0d6efd;
+    }
+
+    /* Cards */
+    .card {
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        transition: 0.3s;
+        min-height: 120px; 
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .stat-icon {
+        font-size: 28px;
+        color: #0d6efd;
+    }
+
+    /* Topbar */
+    .topbar {
+        background: white;
+        padding: 15px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
